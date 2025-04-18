@@ -1,7 +1,8 @@
-auth:
-  converter:
-    principle-attribute: preferred_username
-    resource-id: salih-senturk-client
+jwt:
+  auth:
+    converter:
+      principal-attribute: preferred_username
+      resource-id: salih-senturk-client
 server:
   port: 8081
 spring:
